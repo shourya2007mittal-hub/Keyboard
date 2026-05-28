@@ -29,7 +29,7 @@ So I am making an 60% layout keyboard with 2 rotor encoders .So In total there w
 | 3 | Raspberry Pi Pico H | RP2040 microcontroller board | 1 | 5.5 | 5.5 | https://robu.in/product/raspberry-pi-pico-with-headers/ |
 | 4 |  Keycap Set | Full keycap set | 1 | 0 | 0 | Already have
 | 5 | Screw-In Stabilizers V2 | Keyboard stabilizers | 1 | 0 |0 | Already have |
-| 6 | PCB + Shipping | PCB fabrication (JLCPCB) | 1 | 53.54 | 53.54 | https://jlcpcb.com |
+| 6 | PCB + 3D Case + Shipping | PCB fabrication (JLCPCB) | 1 | 53.54 | 53.54 | https://jlcpcb.com |
 
 **Estimated Total Hardware Cost:** **USD 94.64**
 

@@ -1,23 +1,22 @@
 # KEYBOARD
-I started with picking up Raspberry Pico as out main microcontroller and this would be a 60 % layout Keyboard with 2 rotor encoders.
-The rotor encoders will be use to control Brightness and Volume and the switch in those 2 encoders will act as a custom key to take screenshot and to delete.
-I also did the schematic of the keyboard, I added the stabilizers to the switches which were longer then 1.75U.
-The Keyboard uses a matrix grid so i need only a few gpio pins for the whole keyboard to work.
+So I am making an 60% layout keyboard with 2 rotor encoders .So In total there will be 61 Keys and 2 rotor encoders for volume and britness controle but there aren't that many gpios in any devboard therefore I would be using keyboard matrix and diodes to restrict gosting and I choosed Raspberry Pico as controller because it supports KMK and have enought Gpios as well.I also added stabalizers for any keys whose size is over 1.75U
 ## Features
 
 - Base on Raspberry pico
 - Has 61 keys ( 60% Keyboard Matrix)
 - Has 2 Rotor Encoder
   ### Schematic
-  <img width="1309" height="939" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/f3ae7811-5523-4442-93c6-677eab70dc50" /><br>
+  br><img width="953" height="676" alt="Screenshot 2026-05-28 121645" src="https://github.com/user-attachments/assets/7dfaafa4-fcb3-44d4-ac15-0d798fb7ef2c" />
+
   ###  PCB Design
-<img width="1536" height="605" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/bb2fe7f3-91fb-42c6-ace2-83d5c71401bc" /><br>
+<br><img width="1379" height="463" alt="Screenshot 2026-05-28 123357" src="https://github.com/user-attachments/assets/df8385af-7e9b-41be-adf5-534a1874c514" />
+<img width="1535" height="497" alt="Screenshot 2026-05-28 123220" src="https://github.com/user-attachments/assets/666dae93-1ae6-4b11-8631-de25a87bbf26" />
 
 ### 3D Design
-<img width="826" height="511" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/3a7c6106-6f94-494e-9434-45eb0a77490b" />
-<br>
-<img width="829" height="637" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/19efdbb8-bcef-42e3-8874-303b7ffaff0f" />
-<img width="1223" height="687" alt="Screenshot (293)" src="https://github.com/user-attachments/assets/97220df1-c722-4c20-a60e-d5e13c18a0f2" />
+
+
+<img width="816" height="348" alt="Screenshot 2026-05-28 124031" src="https://github.com/user-attachments/assets/1d5decf0-106b-405a-b507-27c890baacf9" />
+
 
 
 
@@ -28,11 +27,11 @@ The Keyboard uses a matrix grid so i need only a few gpio pins for the whole key
 | 1 | 80Retros x HMX Volume | Mechanical switches (pack of 35) | 2 packs | 17.8 | 35.6 | https://stackskb.com/store/hmx-volume-0-pack-of-35/ |
 | 2 | 1N4148 Diode | DO-35 switching diode | 61 | 0 | 0 | | Already have
 | 3 | Raspberry Pi Pico H | RP2040 microcontroller board | 1 | 5.5 | 5.5 | https://robu.in/product/raspberry-pi-pico-with-headers/ |
-| 4 |  Keycap Set | Full keycap set | 1 | 27.7 | 27.7 | https://stackskb.com/store/blue-and-blue-double-shot-abs-cherry-profile-keycaps-pre-order/ |
+| 4 |  Keycap Set | Full keycap set | 1 | 0 | 0 | Already have
 | 5 | Screw-In Stabilizers V2 | Keyboard stabilizers | 1 | 0 |0 | Already have |
-| 6 | PCB + Shipping | PCB fabrication (JLCPCB) | 1 | 29.51 | 29.51 | https://jlcpcb.com |
+| 6 | PCB + Shipping | PCB fabrication (JLCPCB) | 1 | 53.54 | 53.54 | https://jlcpcb.com |
 
-**Estimated Total Hardware Cost:** **USD 98.31**
+**Estimated Total Hardware Cost:** **USD 94.64**
 
 ## Hardware
 - Raspberry Pico 

@@ -27,11 +27,11 @@ So I am making an 60% layout keyboard with 2 rotor encoders .So In total there w
 | 1 | 80Retros x HMX Volume | Mechanical switches (pack of 35) | 2 packs | 17.8 | 35.6 | https://stackskb.com/store/hmx-volume-0-pack-of-35/ |
 | 2 | 1N4148 Diode | DO-35 switching diode | 61 | 0 | 0 | | Already have
 | 3 | Raspberry Pi Pico H | RP2040 microcontroller board | 1 | 5.5 | 5.5 | https://robu.in/product/raspberry-pi-pico-with-headers/ |
-| 4 |  Keycap Set | Full keycap set | 1 | 0 | 0 | Already have
+| 4 |  Keycap Set | Full keycap set | 1 | 26.2 | 26.2 | https://stackskb.com/store/blue-and-blue-double-shot-abs-cherry-profile-keycaps-pre-order/
 | 5 | Screw-In Stabilizers V2 | Keyboard stabilizers | 1 | 0 |0 | Already have |
-| 6 | PCB + 3D Case + Shipping | PCB fabrication (JLCPCB) | 1 | 53.54 | 53.54 | https://jlcpcb.com |
+| 6 | PCB  + Shipping | PCB fabrication (JLCPCB) | 1 |31.55| 31.55 | https://jlcpcb.com |
 
-**Estimated Total Hardware Cost:** **USD 94.64**
+**Estimated Total Hardware Cost:** **USD 98.85**
 
 ## Hardware
 - Raspberry Pico 
